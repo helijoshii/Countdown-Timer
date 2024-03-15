@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
+    <title>Countdown Timer</title>
+  </head>
+  <body class="w-full h-screen bg-gradient-to-r from-[#2c3e50] to-[#3498db]">
+    <h1 class="text-white text-4xl font-bold text-center mt-10">
+      Countdown Timer
+    </h1>
+    <div
+      id="clock"
+      class="w-[550px] h-36 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex"
+    >
+      <div
+        class="relative bg-white h-full w-36 flex items-center justify-center font-sans text-6xl text-black rounded-md tracking-[3px] shadow-xl flex-col"
+      >
+        <h2 id="days"></h2>
+        <div class="text-xs">Days</div>
+      </div>
+      <span
+        class="font-bold flex items-center justify-center text-6xl text-white px-4"
+        >:</span
+      >
+      <div
+        class="relative bg-white h-full w-36 flex items-center justify-center font-sans text-6xl text-black rounded-md tracking-[3px] shadow-xl flex-col"
+      >
+        <h2 id="hours"></h2>
+        <div class="text-xs">hours</div>
+      </div>
+      <span
+        class="font-bold flex items-center justify-center text-6xl text-white px-4"
+        >:</span
+      >
+      <div
+        class="relative bg-white h-full w-36 flex items-center justify-center font-sans text-6xl text-black rounded-md tracking-[3px] shadow-xl flex-col"
+      >
+        <h2 id="min"></h2>
+        <div class="text-xs">Min</div>
+      </div>
+      <span
+        class="font-bold text-6xl flex items-center justify-center px-4 text-white"
+        >:</span
+      >
+      <div
+        class="relative bg-white h-full w-36 flex items-center justify-center font-sans text-6xl text-black rounded-md tracking-[3px] shadow-xl flex-col"
+      >
+        <h2 id="sec"></h2>
+        <div class="text-xs">Sec</div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
